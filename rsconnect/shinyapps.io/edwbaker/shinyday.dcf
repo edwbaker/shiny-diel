@@ -1,0 +1,13 @@
+name: shinyday
+title: shinyday
+username:
+account: edwbaker
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6636292
+bundleId: 6095830
+url: https://edwbaker.shinyapps.io/shinyday/
+when: 1657737099.85346
+lastSyncTime: 1657737099.85347
+asMultiple: FALSE
+asStatic: FALSE
