@@ -86,9 +86,9 @@ server <- function(input, output, session) {
     cite_bibentry(
       bibentry(
         bibtype="Misc",
-        title="schite: citations for shiny",
+        title="Daylight Information Example",
         author="Ed Baker",
-        url="https://github.com/edwbaker/schite",
+        url="http://shiny.ebaker.me.uk/shiny-diel/",
         year=2022
       )
     )
@@ -107,6 +107,7 @@ server <- function(input, output, session) {
   output$citevis <- citationTabUI(citvis)
 
   citmisc <- list(
+    cite_r_package("schite"),
     cite_r_package("shiny")
   )
   output$citmisc <- citationTabUI(citmisc)
